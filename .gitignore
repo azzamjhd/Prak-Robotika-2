@@ -1,0 +1,5 @@
+output/img/*
+*.pdf
+*.odt
+*.code-workspace
+slprj/*
