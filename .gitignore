@@ -3,3 +3,4 @@ output/img/*
 *.odt
 *.code-workspace
 slprj/*
+*.slxc
