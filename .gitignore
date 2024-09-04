@@ -4,3 +4,4 @@ output/img/*
 *.code-workspace
 slprj/*
 *.slxc
+*.docx
