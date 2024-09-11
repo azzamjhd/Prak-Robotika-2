@@ -144,9 +144,7 @@ end
 
 function plot_cartesian(fig, title_str, data_X, data_Y, save_folder_path, filename)
     figure(fig);
-    num_points = length(data_X);
-    colormap(flipud(jet(num_points)));
-    scatter(data_X, data_Y, [], 1:num_points, 'filled');
+    plot(data_X, data_Y);
     title(title_str);
     xlabel("X");
     ylabel("Y");
